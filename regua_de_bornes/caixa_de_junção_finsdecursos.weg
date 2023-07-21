@@ -1,0 +1,1919 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>4</_size>
+<_version>4</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item id="ref-5" xsi:type="SOAP-ENC:string">RÉGUA DE BORNES NA CAIXA DE JUNÇÃO, LIGADO AOS FINS DE CURSOS</item>
+<item href="#ref-6"/>
+</SOAP-ENC:Array>
+<a3:CadastroCliente id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Empresa id="ref-8"></_Empresa>
+<_NomeContato href="#ref-8"/>
+<_Endereco href="#ref-8"/>
+<_Bairro href="#ref-8"/>
+<_Complemento href="#ref-8"/>
+<_Cidade href="#ref-8"/>
+<_Estado href="#ref-8"/>
+<_CNPJ href="#ref-8"/>
+<_InscricaoEstadual href="#ref-8"/>
+<_Telefone href="#ref-8"/>
+<_Email href="#ref-8"/>
+</a3:CadastroCliente>
+<a1:SortedList id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<keys href="#ref-9"/>
+<values href="#ref-10"/>
+<_size>1</_size>
+<version>1</version>
+<comparer href="#ref-11"/>
+<keyList xsi:null="1"/>
+<valueList xsi:null="1"/>
+</a1:SortedList>
+<a3:Orcamento id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Empresa href="#ref-8"/>
+<_NomeContato href="#ref-8"/>
+<_Endereco href="#ref-8"/>
+<_Bairro href="#ref-8"/>
+<_Complemento href="#ref-8"/>
+<_Cidade href="#ref-8"/>
+<_Estado href="#ref-8"/>
+<_CNPJ href="#ref-8"/>
+<_InscricaoEstadual href="#ref-8"/>
+<_Telefone href="#ref-8"/>
+<_Email href="#ref-8"/>
+<_Numero href="#ref-8"/>
+<_Material xsi:null="1"/>
+<_Revisao id="ref-12">0</_Revisao>
+<_PazoEntrega id="ref-13">15 dias.</_PazoEntrega>
+<_Frete id="ref-14">FOB.</_Frete>
+<_Condicoes id="ref-15">Á vista.</_Condicoes>
+<_CF>0</_CF>
+<_IPI>15</_IPI>
+<mTotalBruto>55.04</mTotalBruto>
+<mDescontoPorCategoria id="ref-16">A</mDescontoPorCategoria>
+<mDescontoAdicional1>10</mDescontoAdicional1>
+<mDescontoAdicional2>10</mDescontoAdicional2>
+<mDescontoAdicional3>0</mDescontoAdicional3>
+<mICMS>0</mICMS>
+<mPIS_COFINS>9.25</mPIS_COFINS>
+<mComissao>2.3</mComissao>
+<mPublicidade>0.5</mPublicidade>
+<mCPMF_PDD>0</mCPMF_PDD>
+<mMaoDeObra>5</mMaoDeObra>
+<mMargemNegociacao>0</mMargemNegociacao>
+<mTotalVendaDosProdutos>27.131956992000006</mTotalVendaDosProdutos>
+<colOrcamentoRegua href="#ref-17"/>
+</a3:Orcamento>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item id="ref-18" xsi:type="SOAP-ENC:string">Régua 1</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-19"/>
+</SOAP-ENC:Array>
+<a1:Comparer id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-20"/>
+</a1:Comparer>
+<a1:ArrayList id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-21"/>
+<_size>1</_size>
+<_version>48</_version>
+</a1:ArrayList>
+<a3:ProjetoReguaItem id="ref-19" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<colItems href="#ref-22"/>
+<colPontes href="#ref-23"/>
+<MaxIdentificador>96</MaxIdentificador>
+<mControleDeDocumentos href="#ref-24"/>
+<mItemEstruturaWEG href="#ref-8"/>
+<mReferenciaCliente href="#ref-8"/>
+</a3:ProjetoReguaItem>
+<a4:CompareInfo id="ref-20" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<m_name id="ref-25">pt-BR</m_name>
+<win32LCID>0</win32LCID>
+<culture>1046</culture>
+<m_SortVersion xsi:null="1"/>
+</a4:CompareInfo>
+<SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-26"/>
+</SOAP-ENC:Array>
+<a1:ArrayList id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-27"/>
+<_size>36</_size>
+<_version>36</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-28"/>
+<_size>1</_size>
+<_version>3</_version>
+</a1:ArrayList>
+<a3:ControleDeDocumentos id="ref-24" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_CodigoDocumento xsi:null="1"/>
+<_Executado xsi:null="1"/>
+<_Verificado xsi:null="1"/>
+<_Liberado xsi:null="1"/>
+<_DataLiberacao xsi:null="1"/>
+<_PRJ xsi:null="1"/>
+<_PCP xsi:null="1"/>
+<_PRC xsi:null="1"/>
+<_MON xsi:null="1"/>
+<_RLM_R1 xsi:null="1"/>
+<_LOC_R1 xsi:null="1"/>
+<_ResumoDasModificacoes_R1 xsi:null="1"/>
+<_Executado_R1 xsi:null="1"/>
+<_Liberado_R1 xsi:null="1"/>
+<_DataLiberacao_R1 xsi:null="1"/>
+<_Indice_R1 xsi:null="1"/>
+<_RLM_R2 xsi:null="1"/>
+<_LOC_R2 xsi:null="1"/>
+<_ResumoDasModificacoes_R2 xsi:null="1"/>
+<_Executado_R2 xsi:null="1"/>
+<_Liberado_R2 xsi:null="1"/>
+<_DataLiberacao_R2 xsi:null="1"/>
+<_Indice_R2 xsi:null="1"/>
+<_RLM_R3 xsi:null="1"/>
+<_LOC_R3 xsi:null="1"/>
+<_ResumoDasModificacoes_R3 xsi:null="1"/>
+<_Executado_R3 xsi:null="1"/>
+<_Liberado_R3 xsi:null="1"/>
+<_DataLiberacao_R3 xsi:null="1"/>
+<_Indice_R3 xsi:null="1"/>
+<_RLM_R4 xsi:null="1"/>
+<_LOC_R4 xsi:null="1"/>
+<_ResumoDasModificacoes_R4 xsi:null="1"/>
+<_Executado_R4 xsi:null="1"/>
+<_Liberado_R4 xsi:null="1"/>
+<_DataLiberacao_R4 xsi:null="1"/>
+<_Indice_R4 xsi:null="1"/>
+<CadastroCliente_x002B__Empresa href="#ref-8"/>
+<CadastroCliente_x002B__NomeContato href="#ref-8"/>
+<CadastroCliente_x002B__Endereco href="#ref-8"/>
+<CadastroCliente_x002B__Bairro href="#ref-8"/>
+<CadastroCliente_x002B__Complemento href="#ref-8"/>
+<CadastroCliente_x002B__Cidade href="#ref-8"/>
+<CadastroCliente_x002B__Estado href="#ref-8"/>
+<CadastroCliente_x002B__CNPJ href="#ref-8"/>
+<CadastroCliente_x002B__InscricaoEstadual href="#ref-8"/>
+<CadastroCliente_x002B__Telefone href="#ref-8"/>
+<CadastroCliente_x002B__Email href="#ref-8"/>
+</a3:ControleDeDocumentos>
+<a3:OrcamentoRegua id="ref-26" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<colOrcamentoItem href="#ref-29"/>
+<NomeRegua id="ref-30">Régua 1</NomeRegua>
+<PrecoDeVendaLiquidoTotal>27.131956992000006</PrecoDeVendaLiquidoTotal>
+</a3:OrcamentoRegua>
+<SOAP-ENC:Array id="ref-27" SOAP-ENC:arrayType="xsd:anyType[64]">
+<item href="#ref-31"/>
+<item href="#ref-32"/>
+<item href="#ref-33"/>
+<item href="#ref-34"/>
+<item href="#ref-35"/>
+<item href="#ref-36"/>
+<item href="#ref-37"/>
+<item href="#ref-38"/>
+<item href="#ref-39"/>
+<item href="#ref-40"/>
+<item href="#ref-41"/>
+<item href="#ref-42"/>
+<item href="#ref-43"/>
+<item href="#ref-44"/>
+<item href="#ref-45"/>
+<item href="#ref-46"/>
+<item href="#ref-47"/>
+<item href="#ref-48"/>
+<item href="#ref-49"/>
+<item href="#ref-50"/>
+<item href="#ref-51"/>
+<item href="#ref-52"/>
+<item href="#ref-53"/>
+<item href="#ref-54"/>
+<item href="#ref-55"/>
+<item href="#ref-56"/>
+<item href="#ref-57"/>
+<item href="#ref-58"/>
+<item href="#ref-59"/>
+<item href="#ref-60"/>
+<item href="#ref-61"/>
+<item href="#ref-62"/>
+<item href="#ref-63"/>
+<item href="#ref-64"/>
+<item href="#ref-65"/>
+<item href="#ref-66"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-28" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item id="ref-67" xsi:type="SOAP-ENC:string">Ponte 1</item>
+</SOAP-ENC:Array>
+<a1:ArrayList id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-68"/>
+<_size>5</_size>
+<_version>5</_version>
+</a1:ArrayList>
+<a3:Regua_ListviewItem id="ref-31" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto id="ref-69">MR 35x7,5</Texto>
+<SubItem1 id="ref-70">Item 1</SubItem1>
+<SubItem2 id="ref-71">Trilho</SubItem2>
+<mTag href="#ref-72"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-32" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto id="ref-73">PF3-BTW</Texto>
+<SubItem1 id="ref-74">Item 2</SubItem1>
+<SubItem2 id="ref-75">Poste final</SubItem2>
+<mTag href="#ref-76"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-33" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto id="ref-77">BTWT 3</Texto>
+<SubItem1 id="ref-78">Item 4</SubItem1>
+<SubItem2 id="ref-79">Borne triplo 2,5 mm²</SubItem2>
+<mTag href="#ref-80"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-34" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-81">Item 6</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-82"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-35" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-83">Item 7</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-84"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-36" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-85">Item 8</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-86"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-37" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-87">Item 9</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-88"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-38" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-89">Item 10</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-90"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-39" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-91">Item 11</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-92"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-40" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-93">Item 12</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-94"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-41" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-95">Item 13</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-96"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-42" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-97">Item 14</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-98"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-43" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-99">Item 15</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-100"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-44" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-101">Item 16</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-102"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-45" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-103">Item 17</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-104"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-46" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-105">Item 18</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-106"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-47" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-107">Item 19</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-108"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-48" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-109">Item 20</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-110"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-49" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-111">Item 21</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-112"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-50" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-113">Item 22</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-114"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-51" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-115">Item 23</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-116"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-52" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-117">Item 24</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-118"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-53" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-119">Item 25</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-120"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-54" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-121">Item 26</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-122"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-55" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-123">Item 27</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-124"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-56" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-125">Item 28</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-126"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-57" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-127">Item 29</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-128"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-58" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-129">Item 30</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-130"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-59" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-131">Item 31</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-132"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-60" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-133">Item 32</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-134"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-61" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-135">Item 33</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-136"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-62" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-137">Item 34</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-138"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-63" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-139">Item 35</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-140"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-64" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-77"/>
+<SubItem1 id="ref-141">Item 36</SubItem1>
+<SubItem2 href="#ref-79"/>
+<mTag href="#ref-142"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-65" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto id="ref-143">TF-BTWT 3</Texto>
+<SubItem1 id="ref-144">Item 5</SubItem1>
+<SubItem2 id="ref-145">Tampa final</SubItem2>
+<mTag href="#ref-146"/>
+</a3:Regua_ListviewItem>
+<a3:Regua_ListviewItem id="ref-66" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Texto href="#ref-73"/>
+<SubItem1 id="ref-147">Item 3</SubItem1>
+<SubItem2 href="#ref-75"/>
+<mTag href="#ref-148"/>
+</a3:Regua_ListviewItem>
+<SOAP-ENC:Array id="ref-68" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-149"/>
+<item href="#ref-150"/>
+<item href="#ref-151"/>
+<item href="#ref-152"/>
+<item href="#ref-153"/>
+</SOAP-ENC:Array>
+<a3:Adv_Trilho id="ref-72" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_MargemInicio>10</_MargemInicio>
+<_MargemFim>10</_MargemFim>
+<_MargemDoFuro1>10</_MargemDoFuro1>
+<_MargemDoFuro2>10</_MargemDoFuro2>
+<_MargemDoFuro3>0</_MargemDoFuro3>
+<_MargemDoFuro4>0</_MargemDoFuro4>
+<_MargemDoFuro5>0</_MargemDoFuro5>
+<_MargemDoFuro6>0</_MargemDoFuro6>
+<_MargemDoFuro7>0</_MargemDoFuro7>
+<_MargemDoFuro8>0</_MargemDoFuro8>
+<_MargemDoFuro9>0</_MargemDoFuro9>
+<_MargemDoFuro10>0</_MargemDoFuro10>
+<_TipoFuros id="ref-154">Sem Furos</_TipoFuros>
+<_Comprimento>0</_Comprimento>
+<Descricao id="ref-155">Trilho</Descricao>
+<Passo>2000</Passo>
+<Altura>35</Altura>
+<Profundidade>7.5</Profundidade>
+<Propriedade1_Tipo>Tipo</Propriedade1_Tipo>
+<Propriedade1_Valor id="ref-156">Liso</Propriedade1_Valor>
+<mQuantidade id="ref-157">0</mQuantidade>
+<Acessorio_x002B_mReferencia id="ref-158">MR 35x7,5</Acessorio_x002B_mReferencia>
+<Acessorio_x002B__Nota href="#ref-8"/>
+</a3:Adv_Trilho>
+<a3:Adv_PosteFinal id="ref-76" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mReferencia href="#ref-73"/>
+<mPosicaoPoste id="ref-159">Primeiro poste</mPosicaoPoste>
+<_Identificador1 xsi:null="1"/>
+<_Identificador2 id="ref-160">XJF</_Identificador2>
+<_Identificador3 xsi:null="1"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-161">14</m_FontSize>
+<m_Referencia id="ref-162">IDB5</m_Referencia>
+<Identificadores href="#ref-163"/>
+<Descricao id="ref-164">Poste final</Descricao>
+<Passo>8</Passo>
+<Altura>44.2</Altura>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<Propriedade1_Valor id="ref-165">Cinza</Propriedade1_Valor>
+<mQuantidade id="ref-166">100</mQuantidade>
+<Acessorio_x002B_mReferencia id="ref-167">PF3-BTW</Acessorio_x002B_mReferencia>
+<Acessorio_x002B__Nota href="#ref-8"/>
+</a3:Adv_PosteFinal>
+<a3:Adv_BTWP_BTriplo id="ref-80" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 id="ref-168">Não conectado</_Conectado1>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-169">3</_Identificador1>
+<_Identificador2 id="ref-170">2</_Identificador2>
+<_Identificador3 id="ref-171">1</_Identificador3>
+<_Identificador4 id="ref-172">1</_Identificador4>
+<_Identificador5 id="ref-173">2</_Identificador5>
+<_Identificador6 id="ref-174">3</_Identificador6>
+<_mTag id="ref-175">Item 4</_mTag>
+<_PlaquetaDeSeparacao1 id="ref-176">Ausente</_PlaquetaDeSeparacao1>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-177">14</m_FontSize>
+<m_Referencia id="ref-178">IDB5</m_Referencia>
+<mUL_CSA id="ref-179">300V~ / 24A / AWG 24 ... 12</mUL_CSA>
+<mDecapagemDoCabo id="ref-180">9mm</mDecapagemDoCabo>
+<mTorqueDeAperto id="ref-181">0,4 Nm</mTorqueDeAperto>
+<mFioRigido id="ref-182">0,5 ... 4mm²</mFioRigido>
+<mCaboFlexivel id="ref-183">1,5 ... 2,5 mm²</mCaboFlexivel>
+<mCondutorAWG id="ref-184">24 ... 12</mCondutorAWG>
+<_Nota href="#ref-79"/>
+<mCor id="ref-185">Cinza</mCor>
+<Descricao id="ref-186">BTWT 3</Descricao>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 id="ref-189">440V~ / 24A / 2,5 mm²</BornesBase_x002B__IEC60947_7_1>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-82" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-190">6</_Identificador1>
+<_Identificador2 id="ref-191">5</_Identificador2>
+<_Identificador3 id="ref-192">4</_Identificador3>
+<_Identificador4 id="ref-193">4</_Identificador4>
+<_Identificador5 id="ref-194">5</_Identificador5>
+<_Identificador6 id="ref-195">6</_Identificador6>
+<_mTag id="ref-196">Item 6</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-197">14</m_FontSize>
+<m_Referencia href="#ref-178"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-84" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-198">9</_Identificador1>
+<_Identificador2 id="ref-199">8</_Identificador2>
+<_Identificador3 id="ref-200">7</_Identificador3>
+<_Identificador4 id="ref-201">7</_Identificador4>
+<_Identificador5 id="ref-202">8</_Identificador5>
+<_Identificador6 id="ref-203">9</_Identificador6>
+<_mTag id="ref-204">Item 7</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-205">14</m_FontSize>
+<m_Referencia href="#ref-178"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-86" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-206">12</_Identificador1>
+<_Identificador2 id="ref-207">11</_Identificador2>
+<_Identificador3 id="ref-208">10</_Identificador3>
+<_Identificador4 id="ref-209">10</_Identificador4>
+<_Identificador5 id="ref-210">11</_Identificador5>
+<_Identificador6 id="ref-211">12</_Identificador6>
+<_mTag id="ref-212">Item 8</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-213">14</m_FontSize>
+<m_Referencia id="ref-214">IDB5</m_Referencia>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-88" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-215">15</_Identificador1>
+<_Identificador2 id="ref-216">14</_Identificador2>
+<_Identificador3 id="ref-217">13</_Identificador3>
+<_Identificador4 id="ref-218">13</_Identificador4>
+<_Identificador5 id="ref-219">14</_Identificador5>
+<_Identificador6 id="ref-220">15</_Identificador6>
+<_mTag id="ref-221">Item 9</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-222">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-90" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-223">18</_Identificador1>
+<_Identificador2 id="ref-224">17</_Identificador2>
+<_Identificador3 id="ref-225">16</_Identificador3>
+<_Identificador4 id="ref-226">16</_Identificador4>
+<_Identificador5 id="ref-227">17</_Identificador5>
+<_Identificador6 id="ref-228">18</_Identificador6>
+<_mTag id="ref-229">Item 10</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-230">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-92" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-231">21</_Identificador1>
+<_Identificador2 id="ref-232">20</_Identificador2>
+<_Identificador3 id="ref-233">19</_Identificador3>
+<_Identificador4 id="ref-234">19</_Identificador4>
+<_Identificador5 id="ref-235">20</_Identificador5>
+<_Identificador6 id="ref-236">21</_Identificador6>
+<_mTag id="ref-237">Item 11</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-238">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-94" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-239">24</_Identificador1>
+<_Identificador2 id="ref-240">23</_Identificador2>
+<_Identificador3 id="ref-241">22</_Identificador3>
+<_Identificador4 id="ref-242">22</_Identificador4>
+<_Identificador5 id="ref-243">23</_Identificador5>
+<_Identificador6 id="ref-244">24</_Identificador6>
+<_mTag id="ref-245">Item 12</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-246">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-96" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-247">27</_Identificador1>
+<_Identificador2 id="ref-248">26</_Identificador2>
+<_Identificador3 id="ref-249">25</_Identificador3>
+<_Identificador4 id="ref-250">25</_Identificador4>
+<_Identificador5 id="ref-251">26</_Identificador5>
+<_Identificador6 id="ref-252">27</_Identificador6>
+<_mTag id="ref-253">Item 13</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-254">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-98" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-255">30</_Identificador1>
+<_Identificador2 id="ref-256">29</_Identificador2>
+<_Identificador3 id="ref-257">28</_Identificador3>
+<_Identificador4 id="ref-258">28</_Identificador4>
+<_Identificador5 id="ref-259">29</_Identificador5>
+<_Identificador6 id="ref-260">30</_Identificador6>
+<_mTag id="ref-261">Item 14</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-262">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-100" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-263">33</_Identificador1>
+<_Identificador2 id="ref-264">32</_Identificador2>
+<_Identificador3 id="ref-265">31</_Identificador3>
+<_Identificador4 id="ref-266">31</_Identificador4>
+<_Identificador5 id="ref-267">32</_Identificador5>
+<_Identificador6 id="ref-268">33</_Identificador6>
+<_mTag id="ref-269">Item 15</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-270">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-102" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-271">36</_Identificador1>
+<_Identificador2 id="ref-272">35</_Identificador2>
+<_Identificador3 id="ref-273">34</_Identificador3>
+<_Identificador4 id="ref-274">34</_Identificador4>
+<_Identificador5 id="ref-275">35</_Identificador5>
+<_Identificador6 id="ref-276">36</_Identificador6>
+<_mTag id="ref-277">Item 16</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-278">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-104" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-279">39</_Identificador1>
+<_Identificador2 id="ref-280">38</_Identificador2>
+<_Identificador3 id="ref-281">37</_Identificador3>
+<_Identificador4 id="ref-282">37</_Identificador4>
+<_Identificador5 id="ref-283">38</_Identificador5>
+<_Identificador6 id="ref-284">39</_Identificador6>
+<_mTag id="ref-285">Item 17</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-286">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-106" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-287">42</_Identificador1>
+<_Identificador2 id="ref-288">41</_Identificador2>
+<_Identificador3 id="ref-289">40</_Identificador3>
+<_Identificador4 id="ref-290">40</_Identificador4>
+<_Identificador5 id="ref-291">41</_Identificador5>
+<_Identificador6 id="ref-292">42</_Identificador6>
+<_mTag id="ref-293">Item 18</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-294">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-108" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-295">45</_Identificador1>
+<_Identificador2 id="ref-296">44</_Identificador2>
+<_Identificador3 id="ref-297">43</_Identificador3>
+<_Identificador4 id="ref-298">43</_Identificador4>
+<_Identificador5 id="ref-299">44</_Identificador5>
+<_Identificador6 id="ref-300">45</_Identificador6>
+<_mTag id="ref-301">Item 19</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-302">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-110" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-303">48</_Identificador1>
+<_Identificador2 id="ref-304">47</_Identificador2>
+<_Identificador3 id="ref-305">46</_Identificador3>
+<_Identificador4 id="ref-306">46</_Identificador4>
+<_Identificador5 id="ref-307">47</_Identificador5>
+<_Identificador6 id="ref-308">48</_Identificador6>
+<_mTag id="ref-309">Item 20</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-310">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-112" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-311">51</_Identificador1>
+<_Identificador2 id="ref-312">50</_Identificador2>
+<_Identificador3 id="ref-313">49</_Identificador3>
+<_Identificador4 id="ref-314">49</_Identificador4>
+<_Identificador5 id="ref-315">50</_Identificador5>
+<_Identificador6 id="ref-316">51</_Identificador6>
+<_mTag id="ref-317">Item 21</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-318">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-114" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-319">54</_Identificador1>
+<_Identificador2 id="ref-320">53</_Identificador2>
+<_Identificador3 id="ref-321">52</_Identificador3>
+<_Identificador4 id="ref-322">52</_Identificador4>
+<_Identificador5 id="ref-323">53</_Identificador5>
+<_Identificador6 id="ref-324">54</_Identificador6>
+<_mTag id="ref-325">Item 22</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-326">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-116" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-327">57</_Identificador1>
+<_Identificador2 id="ref-328">56</_Identificador2>
+<_Identificador3 id="ref-329">55</_Identificador3>
+<_Identificador4 id="ref-330">55</_Identificador4>
+<_Identificador5 id="ref-331">56</_Identificador5>
+<_Identificador6 id="ref-332">57</_Identificador6>
+<_mTag id="ref-333">Item 23</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-334">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-118" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-335">60</_Identificador1>
+<_Identificador2 id="ref-336">59</_Identificador2>
+<_Identificador3 id="ref-337">58</_Identificador3>
+<_Identificador4 id="ref-338">58</_Identificador4>
+<_Identificador5 id="ref-339">59</_Identificador5>
+<_Identificador6 id="ref-340">60</_Identificador6>
+<_mTag id="ref-341">Item 24</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-342">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-120" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-343">63</_Identificador1>
+<_Identificador2 id="ref-344">62</_Identificador2>
+<_Identificador3 id="ref-345">61</_Identificador3>
+<_Identificador4 id="ref-346">61</_Identificador4>
+<_Identificador5 id="ref-347">62</_Identificador5>
+<_Identificador6 id="ref-348">63</_Identificador6>
+<_mTag id="ref-349">Item 25</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-350">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-122" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-351">66</_Identificador1>
+<_Identificador2 id="ref-352">65</_Identificador2>
+<_Identificador3 id="ref-353">64</_Identificador3>
+<_Identificador4 id="ref-354">64</_Identificador4>
+<_Identificador5 id="ref-355">65</_Identificador5>
+<_Identificador6 id="ref-356">66</_Identificador6>
+<_mTag id="ref-357">Item 26</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-358">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-124" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-359">69</_Identificador1>
+<_Identificador2 id="ref-360">68</_Identificador2>
+<_Identificador3 id="ref-361">67</_Identificador3>
+<_Identificador4 id="ref-362">67</_Identificador4>
+<_Identificador5 id="ref-363">68</_Identificador5>
+<_Identificador6 id="ref-364">69</_Identificador6>
+<_mTag id="ref-365">Item 27</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-366">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-126" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-367">72</_Identificador1>
+<_Identificador2 id="ref-368">71</_Identificador2>
+<_Identificador3 id="ref-369">70</_Identificador3>
+<_Identificador4 id="ref-370">70</_Identificador4>
+<_Identificador5 id="ref-371">71</_Identificador5>
+<_Identificador6 id="ref-372">72</_Identificador6>
+<_mTag id="ref-373">Item 28</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-374">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-128" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-375">75</_Identificador1>
+<_Identificador2 id="ref-376">74</_Identificador2>
+<_Identificador3 id="ref-377">73</_Identificador3>
+<_Identificador4 id="ref-378">73</_Identificador4>
+<_Identificador5 id="ref-379">74</_Identificador5>
+<_Identificador6 id="ref-380">75</_Identificador6>
+<_mTag id="ref-381">Item 29</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-382">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-130" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-383">78</_Identificador1>
+<_Identificador2 id="ref-384">77</_Identificador2>
+<_Identificador3 id="ref-385">76</_Identificador3>
+<_Identificador4 id="ref-386">76</_Identificador4>
+<_Identificador5 id="ref-387">77</_Identificador5>
+<_Identificador6 id="ref-388">78</_Identificador6>
+<_mTag id="ref-389">Item 30</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-390">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-132" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-391">81</_Identificador1>
+<_Identificador2 id="ref-392">80</_Identificador2>
+<_Identificador3 id="ref-393">79</_Identificador3>
+<_Identificador4 id="ref-394">79</_Identificador4>
+<_Identificador5 id="ref-395">80</_Identificador5>
+<_Identificador6 id="ref-396">81</_Identificador6>
+<_mTag id="ref-397">Item 31</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-398">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-134" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-399">84</_Identificador1>
+<_Identificador2 id="ref-400">83</_Identificador2>
+<_Identificador3 id="ref-401">82</_Identificador3>
+<_Identificador4 id="ref-402">82</_Identificador4>
+<_Identificador5 id="ref-403">83</_Identificador5>
+<_Identificador6 id="ref-404">84</_Identificador6>
+<_mTag id="ref-405">Item 32</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-406">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-136" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-407">87</_Identificador1>
+<_Identificador2 id="ref-408">86</_Identificador2>
+<_Identificador3 id="ref-409">85</_Identificador3>
+<_Identificador4 id="ref-410">85</_Identificador4>
+<_Identificador5 id="ref-411">86</_Identificador5>
+<_Identificador6 id="ref-412">87</_Identificador6>
+<_mTag id="ref-413">Item 33</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-414">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-138" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-415">90</_Identificador1>
+<_Identificador2 id="ref-416">89</_Identificador2>
+<_Identificador3 id="ref-417">88</_Identificador3>
+<_Identificador4 id="ref-418">88</_Identificador4>
+<_Identificador5 id="ref-419">89</_Identificador5>
+<_Identificador6 id="ref-420">90</_Identificador6>
+<_mTag id="ref-421">Item 34</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-422">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-140" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-423">93</_Identificador1>
+<_Identificador2 id="ref-424">92</_Identificador2>
+<_Identificador3 id="ref-425">91</_Identificador3>
+<_Identificador4 id="ref-426">91</_Identificador4>
+<_Identificador5 id="ref-427">92</_Identificador5>
+<_Identificador6 id="ref-428">93</_Identificador6>
+<_mTag id="ref-429">Item 35</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-430">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_BTWP_BTriplo id="ref-142" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Conectado1 href="#ref-168"/>
+<_Conectado2 href="#ref-168"/>
+<_Conectado3 href="#ref-168"/>
+<_Identificador1 id="ref-431">96</_Identificador1>
+<_Identificador2 id="ref-432">95</_Identificador2>
+<_Identificador3 id="ref-433">94</_Identificador3>
+<_Identificador4 id="ref-434">94</_Identificador4>
+<_Identificador5 id="ref-435">95</_Identificador5>
+<_Identificador6 id="ref-436">96</_Identificador6>
+<_mTag id="ref-437">Item 36</_mTag>
+<_PlaquetaDeSeparacao1 href="#ref-176"/>
+<_PlaquetaDeSeparacao2 href="#ref-176"/>
+<_PlaquetaDeSeparacao3 href="#ref-176"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize id="ref-438">14</m_FontSize>
+<m_Referencia href="#ref-214"/>
+<mUL_CSA href="#ref-179"/>
+<mDecapagemDoCabo href="#ref-180"/>
+<mTorqueDeAperto href="#ref-181"/>
+<mFioRigido href="#ref-182"/>
+<mCaboFlexivel href="#ref-183"/>
+<mCondutorAWG href="#ref-184"/>
+<_Nota href="#ref-79"/>
+<mCor href="#ref-185"/>
+<Descricao href="#ref-186"/>
+<Passo>6</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<CapacidadeDeConexao xsi:null="1"/>
+<Acessorio href="#ref-187"/>
+<Identificadores href="#ref-188"/>
+<BornesBase_x002B__IEC60947_7_1 href="#ref-189"/>
+</a3:Adv_BTWP_BTriplo>
+<a3:Adv_TampaFinal id="ref-146" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Descricao id="ref-439">Tampa final</Descricao>
+<Passo>1.5</Passo>
+<Altura>87.5</Altura>
+<Profundidade>87.15</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<Propriedade1_Valor id="ref-440">Cinza</Propriedade1_Valor>
+<mQuantidade id="ref-441">10</mQuantidade>
+<Acessorio_x002B_mReferencia href="#ref-143"/>
+<Acessorio_x002B__Nota href="#ref-8"/>
+</a3:Adv_TampaFinal>
+<a3:Adv_PosteFinal id="ref-148" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<mReferencia href="#ref-73"/>
+<mPosicaoPoste id="ref-442">Último poste</mPosicaoPoste>
+<_Identificador1 xsi:null="1"/>
+<_Identificador2 id="ref-443">XJF</_Identificador2>
+<_Identificador3 xsi:null="1"/>
+<m_Sentido>Horizontal</m_Sentido>
+<m_FontSize href="#ref-161"/>
+<m_Referencia href="#ref-162"/>
+<Identificadores href="#ref-444"/>
+<Descricao href="#ref-164"/>
+<Passo>8</Passo>
+<Altura>44.2</Altura>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<Propriedade1_Valor href="#ref-165"/>
+<mQuantidade href="#ref-166"/>
+<Acessorio_x002B_mReferencia href="#ref-167"/>
+<Acessorio_x002B__Nota href="#ref-8"/>
+</a3:Adv_PosteFinal>
+<a3:OrcamentoItem id="ref-149" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CodigoSAP id="ref-445">10261749</CodigoSAP>
+<Referencia href="#ref-77"/>
+<Descricao id="ref-446">BTWT 3 - Borne triplo 2,5 mm²</Descricao>
+<Quantidade>32</Quantidade>
+<PVLU>8.956897866000002</PVLU>
+<PVL>286.62073171200007</PVL>
+</a3:OrcamentoItem>
+<a3:OrcamentoItem id="ref-150" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CodigoSAP id="ref-447">10290300</CodigoSAP>
+<Referencia id="ref-448">IDB5-BTW</Referencia>
+<Descricao id="ref-449">Identificador IDB5</Descricao>
+<Quantidade>192</Quantidade>
+<PVLU>0.064083474</PVLU>
+<PVL>12.304027008</PVL>
+</a3:OrcamentoItem>
+<a3:OrcamentoItem id="ref-151" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CodigoSAP id="ref-450">11476763</CodigoSAP>
+<Referencia href="#ref-158"/>
+<Descricao id="ref-451">MR 35x7,5 (comprimento = 229,5mm)</Descricao>
+<Quantidade>1</Quantidade>
+<PVLU>15.360315768000001</PVLU>
+<PVL>15.360315768000001</PVL>
+</a3:OrcamentoItem>
+<a3:OrcamentoItem id="ref-152" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CodigoSAP id="ref-452">10289060</CodigoSAP>
+<Referencia href="#ref-73"/>
+<Descricao href="#ref-164"/>
+<Quantidade>2</Quantidade>
+<PVLU>1.217586006</PVLU>
+<PVL>2.435172012</PVL>
+</a3:OrcamentoItem>
+<a3:OrcamentoItem id="ref-153" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<CodigoSAP id="ref-453">10261766</CodigoSAP>
+<Referencia href="#ref-143"/>
+<Descricao href="#ref-439"/>
+<Quantidade>1</Quantidade>
+<PVLU>1.5330738780000002</PVLU>
+<PVL>1.5330738780000002</PVL>
+</a3:OrcamentoItem>
+<a1:SortedList id="ref-163" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<keys href="#ref-454"/>
+<values href="#ref-455"/>
+<_size>4</_size>
+<version>4</version>
+<comparer href="#ref-456"/>
+<keyList xsi:null="1"/>
+<valueList xsi:null="1"/>
+</a1:SortedList>
+<a1:SortedList id="ref-187" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<keys href="#ref-457"/>
+<values href="#ref-458"/>
+<_size>12</_size>
+<version>12</version>
+<comparer href="#ref-459"/>
+<keyList xsi:null="1"/>
+<valueList xsi:null="1"/>
+</a1:SortedList>
+<a1:SortedList id="ref-188" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<keys href="#ref-460"/>
+<values href="#ref-461"/>
+<_size>1</_size>
+<version>1</version>
+<comparer href="#ref-462"/>
+<keyList xsi:null="1"/>
+<valueList xsi:null="1"/>
+</a1:SortedList>
+<a1:SortedList id="ref-444" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<keys href="#ref-463"/>
+<values href="#ref-464"/>
+<_size>4</_size>
+<version>4</version>
+<comparer href="#ref-465"/>
+<keyList xsi:null="1"/>
+<valueList xsi:null="1"/>
+</a1:SortedList>
+<SOAP-ENC:Array id="ref-454" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item id="ref-466" xsi:type="SOAP-ENC:string">IDB5-BTW</item>
+<item id="ref-467" xsi:type="SOAP-ENC:string">IDG10/5-BTW</item>
+<item id="ref-468" xsi:type="SOAP-ENC:string">IDG10/6-BTW</item>
+<item id="ref-469" xsi:type="SOAP-ENC:string">IDG6/5-BTW</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-455" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-470"/>
+<item href="#ref-471"/>
+<item href="#ref-472"/>
+<item href="#ref-473"/>
+</SOAP-ENC:Array>
+<a1:Comparer id="ref-456" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-20"/>
+</a1:Comparer>
+<SOAP-ENC:Array id="ref-457" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item id="ref-474" xsi:type="SOAP-ENC:string">IG22-BTW</item>
+<item id="ref-475" xsi:type="SOAP-ENC:string">IG-BTW</item>
+<item id="ref-476" xsi:type="SOAP-ENC:string">MR35x7,5</item>
+<item id="ref-477" xsi:type="SOAP-ENC:string">PC-BTWP2,5/10</item>
+<item id="ref-478" xsi:type="SOAP-ENC:string">PC-BTWP2,5/2</item>
+<item id="ref-479" xsi:type="SOAP-ENC:string">PC-BTWP2,5/3</item>
+<item id="ref-480" xsi:type="SOAP-ENC:string">PC-BTWP2,5/4</item>
+<item href="#ref-167"/>
+<item id="ref-481" xsi:type="SOAP-ENC:string">PF4-BTW</item>
+<item id="ref-482" xsi:type="SOAP-ENC:string">PS1-BTWP</item>
+<item id="ref-483" xsi:type="SOAP-ENC:string">ST-BTW</item>
+<item id="ref-484" xsi:type="SOAP-ENC:string">TF-BTWT3</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-458" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-485"/>
+<item href="#ref-486"/>
+<item href="#ref-487"/>
+<item href="#ref-488"/>
+<item href="#ref-489"/>
+<item href="#ref-490"/>
+<item href="#ref-491"/>
+<item href="#ref-492"/>
+<item href="#ref-493"/>
+<item href="#ref-494"/>
+<item href="#ref-495"/>
+<item href="#ref-496"/>
+</SOAP-ENC:Array>
+<a1:Comparer id="ref-459" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-20"/>
+</a1:Comparer>
+<SOAP-ENC:Array id="ref-460" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-466"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-461" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-470"/>
+</SOAP-ENC:Array>
+<a1:Comparer id="ref-462" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-20"/>
+</a1:Comparer>
+<SOAP-ENC:Array id="ref-463" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-466"/>
+<item href="#ref-467"/>
+<item href="#ref-468"/>
+<item href="#ref-469"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-464" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-470"/>
+<item href="#ref-471"/>
+<item href="#ref-472"/>
+<item href="#ref-473"/>
+</SOAP-ENC:Array>
+<a1:Comparer id="ref-465" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-20"/>
+</a1:Comparer>
+<a3:Identificador id="ref-470" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Descricao id="ref-497">IDB5</Descricao>
+<Altura>5</Altura>
+<Passo>5</Passo>
+<Cor id="ref-498">Branca</Cor>
+<CorDaGravacao id="ref-499">Preta</CorDaGravacao>
+<Quantidade_Cartela id="ref-500">50</Quantidade_Cartela>
+<Referencia_SemGravacao id="ref-501">IDB5-BTW</Referencia_SemGravacao>
+<Referencia_CodigoAlfaNumericoSobConsulta href="#ref-466"/>
+</a3:Identificador>
+<a3:Identificador id="ref-471" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Descricao id="ref-502">IDG10/5</Descricao>
+<Altura>10</Altura>
+<Passo>5</Passo>
+<Cor id="ref-503">Branca</Cor>
+<CorDaGravacao id="ref-504">Preta</CorDaGravacao>
+<Quantidade_Cartela id="ref-505">44</Quantidade_Cartela>
+<Referencia_SemGravacao id="ref-506">IDG10/5-BTW</Referencia_SemGravacao>
+<Referencia_CodigoAlfaNumericoSobConsulta href="#ref-467"/>
+</a3:Identificador>
+<a3:Identificador id="ref-472" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Descricao id="ref-507">IDG10/6</Descricao>
+<Altura>10</Altura>
+<Passo>6</Passo>
+<Cor id="ref-508">Branca</Cor>
+<CorDaGravacao id="ref-509">Preta</CorDaGravacao>
+<Quantidade_Cartela id="ref-510">36</Quantidade_Cartela>
+<Referencia_SemGravacao id="ref-511">IDG10/6-BTW</Referencia_SemGravacao>
+<Referencia_CodigoAlfaNumericoSobConsulta href="#ref-468"/>
+</a3:Identificador>
+<a3:Identificador id="ref-473" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Descricao id="ref-512">IDG6/5</Descricao>
+<Altura>6</Altura>
+<Passo>5</Passo>
+<Cor id="ref-513">Branca</Cor>
+<CorDaGravacao id="ref-514">Preta</CorDaGravacao>
+<Quantidade_Cartela id="ref-515">40</Quantidade_Cartela>
+<Referencia_SemGravacao id="ref-516">IDG6/5-BTW</Referencia_SemGravacao>
+<Referencia_CodigoAlfaNumericoSobConsulta href="#ref-469"/>
+</a3:Identificador>
+<a3:Acessorio id="ref-485" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-517">Identificador de grupo</Descricao>
+<Propriedade1_Valor id="ref-518">Transp.</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-474"/>
+<mQuantidade id="ref-519">25</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-486" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>8</Passo>
+<Descricao id="ref-520">Identificador de grupo</Descricao>
+<Propriedade1_Valor id="ref-521">Cinza</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-475"/>
+<mQuantidade id="ref-522">50</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-487" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>35</Altura>
+<Passo>2000</Passo>
+<Descricao href="#ref-155"/>
+<Propriedade1_Valor href="#ref-156"/>
+<Profundidade>7.5</Profundidade>
+<Propriedade1_Tipo>Tipo</Propriedade1_Tipo>
+<mReferencia href="#ref-158"/>
+<mQuantidade href="#ref-157"/>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-488" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-523">Ponte conectora</Descricao>
+<Propriedade1_Valor id="ref-524">10</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>NrPolos</Propriedade1_Tipo>
+<mReferencia id="ref-525">PC-BTWP 2,5/10</mReferencia>
+<mQuantidade id="ref-526">5</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-489" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-527">Ponte conectora</Descricao>
+<Propriedade1_Valor id="ref-528">2</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>NrPolos</Propriedade1_Tipo>
+<mReferencia id="ref-529">PC-BTWP 2,5/2</mReferencia>
+<mQuantidade id="ref-530">25</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-490" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-531">Ponte conectora</Descricao>
+<Propriedade1_Valor id="ref-532">3</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>NrPolos</Propriedade1_Tipo>
+<mReferencia id="ref-533">PC-BTWP 2,5/3</mReferencia>
+<mQuantidade id="ref-534">20</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-491" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-535">Ponte conectora</Descricao>
+<Propriedade1_Valor id="ref-536">4</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>NrPolos</Propriedade1_Tipo>
+<mReferencia id="ref-537">PC-BTWP 2,5/4</mReferencia>
+<mQuantidade id="ref-538">15</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-492" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>44.2</Altura>
+<Passo>8</Passo>
+<Descricao href="#ref-164"/>
+<Propriedade1_Valor href="#ref-165"/>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-167"/>
+<mQuantidade href="#ref-166"/>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-493" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>44.2</Altura>
+<Passo>8</Passo>
+<Descricao id="ref-539">Poste final</Descricao>
+<Propriedade1_Valor id="ref-540">Cinza</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-481"/>
+<mQuantidade id="ref-541">100</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-494" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-542">Plaqueta de separação</Descricao>
+<Propriedade1_Valor id="ref-543">Cinza</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-482"/>
+<mQuantidade id="ref-544">100</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-495" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>0</Altura>
+<Passo>0</Passo>
+<Descricao id="ref-545">Suporte</Descricao>
+<Propriedade1_Valor id="ref-546">Suporte</Propriedade1_Valor>
+<Profundidade>0</Profundidade>
+<Propriedade1_Tipo>Tipo</Propriedade1_Tipo>
+<mReferencia href="#ref-483"/>
+<mQuantidade id="ref-547">25</mQuantidade>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+<a3:Acessorio id="ref-496" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/WEG.Automacao.Bornes/WEG.Automacao.Bornes%2C%20Version%3D1.0.0.51%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Altura>87.5</Altura>
+<Passo>1.5</Passo>
+<Descricao href="#ref-439"/>
+<Propriedade1_Valor href="#ref-440"/>
+<Profundidade>87.15</Profundidade>
+<Propriedade1_Tipo>Cor</Propriedade1_Tipo>
+<mReferencia href="#ref-143"/>
+<mQuantidade href="#ref-441"/>
+<_Nota href="#ref-8"/>
+</a3:Acessorio>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
