@@ -26,9 +26,9 @@
  <Property name="Autor" id="10020" index="0" type="7">diego</Property>
  <Property name="Data de criação" id="10021" index="0" type="14">1689683163</Property>
  <Property name="Último editor: Nome de entrada" id="10022" index="0" type="7">diego</Property>
- <Property name="Data de modificação" id="10023" index="0" type="14">1691778679</Property>
+ <Property name="Data de modificação" id="10023" index="0" type="14">1692294788</Property>
  <Property name="Última tradução: Data" id="10024" index="0" type="14">1647519527</Property>
- <Property name="Data atual" id="10027" index="0" type="14">1691780985</Property>
+ <Property name="Data atual" id="10027" index="0" type="14">1694780909</Property>
  <Property name="Inicio do projeto" id="10028" index="0" type="14">1689689520</Property>
  <Property name="Formatos de estruturas principais" id="10029" index="0" type="7">4&#9;0&#9;0&#9;0&#9;0</Property>
  <Property name="Considerações ambientais" id="10034" index="0" type="15">de_DE@keine;en_US@None;nl_NL@geen;fr_FR@aucune;es_ES@ninguno;sv_SE@ingen;da_DK@ingen;zh_CN@无;ru_RU@нет;pl_PL@brak;pt_BR@nenhum;cs_CZ@žádné;it_IT@nessuna;hu_HU@nincs;pt_PT@nenhum;ko_KR@없음;ja_JP@なし;tr_TR@yok;ro_RO@niciunul/niciuna;zh_TW@無;</Property>
@@ -36,7 +36,7 @@
  <Property name="Último número de construção do EPLAN utilizado" id="10044" index="0" type="7">19351</Property>
  <Property name="Caminho do projeto (completo)" id="10045" index="0" type="7">C:\Users\diego\Desktop\proj_MPM\MPM300</Property>
  <Property name="Hora de criação" id="10046" index="0" type="7">09:26:03</Property>
- <Property name="Hora da alteração" id="10047" index="0" type="7">15:31:19</Property>
+ <Property name="Hora da alteração" id="10047" index="0" type="7">14:53:08</Property>
  <Property name="Última tradução: Hora" id="10048" index="0" type="7">09:18:47</Property>
  <Property name="Formato de estrutura para páginas" id="10050" index="0" type="7">&lt;11012&gt;&lt;11013&gt;</Property>
  <Property name="Formato da estrutura para pontos de interrupção" id="10051" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;</Property>
@@ -45,7 +45,7 @@
  <Property name="Formato de estrutura para dispositivos gerais" id="10055" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
  <Property name="Formato de estrutura para caixa de dispositivos" id="10056" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
  <Property name="Formato da estrutura para técnica de CLP/Bus" id="10057" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
- <Property name="Hora do dia" id="10058" index="0" type="14">1691780985</Property>
+ <Property name="Hora do dia" id="10058" index="0" type="14">1694780909</Property>
  <Property name="Formato de estrutura para réguas de bornes" id="10059" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
  <Property name="Formato de estrutura para conectores" id="10060" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
  <Property name="Formato de estrutura para cabos" id="10061" index="0" type="7">&lt;20012&gt;&lt;20013&gt;&lt;20014&gt;&lt;20015&gt;&lt;20016&gt;&lt;20017&gt;&lt;20018&gt;&lt;20019&gt;</Property>
